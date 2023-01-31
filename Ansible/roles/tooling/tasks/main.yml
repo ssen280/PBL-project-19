@@ -2,7 +2,7 @@
 - name: mounting share(s)
   mount:
     path: /var/www
-    src: fs-06a94046bc85a62be:/
+    src: fs-0a9267d88e8636c96:/
     fstype: efs
     opts: nosuid,noexec,defaults,tls,accesspoint=fsap-07c2667e1055ea161
     state: mounted
